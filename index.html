@@ -2,111 +2,241 @@
 <html lang="en">
 
 <head>
-    <title>Ristorante Con Fusion</title>
-    <!-- Required meta tags always come first -->
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>UI Assignment</title>
 </head>
 
 <body>
-
-    <header>
-        <div>
-            <div>
-                <div>
-                    <h1>Ristorante con Fusion</h1>
-                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-5 col-md-10">
+                    <i class="fa fa-envelope" style="color: red"></i>
+                    <span class="ml-1" style="color: red">support@email.com</span>
                 </div>
-                <div>
+                <div class="col-12 col-sm col-md">
+                    <i class="fa fa-phone-alt" style="color: red"></i>
+                    <span class="ml-1" style="color: red">+012-345-6789</span>
                 </div>
-            </div>
-        </div>
-    </header>
-
-    <div>
-        <div>
-            <div>
-                <h3>Our Lipsmacking Culinary Creations</h3>
-            </div>
-            <div>
-                <h2>Uthappizza</h2>
-                <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
-            </div>
-        </div>
-
-
-        <div>
-            <div>
-                <h3>This Month's Promotions</h3>
-            </div>
-            <div>
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
-            </div>
-        </div>
-
-        <div>
-            <div>
-                <h3>Meet our Culinary Specialists</h3>
-            </div>
-            <div>
-                <h2>Alberto Somayya</h2>
-                <h4>Executive Chef</h4>
-                <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
             </div>
         </div>
     </div>
 
-    <footer>
-        <div>
-            <div>             
-                <div>
-                    <h5>Links</h5>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h5>Our Address</h5>
-                    <address>
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-		              Tel.: +852 1234 5678<br>
-		              Fax: +852 8765 4321<br>
-		              Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
-		           </address>
-                </div>
-                <div>
-                    <div>
-                        <a href="http://google.com/+">Google+</a>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                        <a href="http://twitter.com/">Twitter</a>
-                        <a href="http://youtube.com/">YouTube</a>
-                        <a href="mailto:">Mail</a>
+    <div class="nav">
+        <div class="container">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <div class="collapse navbar-collapse justify-content-between">
+                    <div class="navbar-nav mr-auto">
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <a href="#" class="nav-item nav-link">Products</a>
+                        <a href="#" class="nav-item nav-link">Product Detail</a>
+                        <a href="#" class="nav-item nav-link">Cart</a>
+                        <a href="#" class="nav-item nav-link">Checkout</a>
+                        <a href="#" class="nav-item nav-link">My Account</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More Pages</a>
+                        </div>
+                    </div>
+                    <div class="navbar-nav ml-auto">
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">User Account</a>
+                        </div>
                     </div>
                 </div>
-           </div>
-           <div>             
-                <div>
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+            </nav>
+        </div>
+    </div>
+
+    <div class="bottom-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <div class="logo">
+                        <img src="images/Logo.png" alt="Logo">
+                    </div>
+            </div>
+                <div class="col-md-6">
+                    <div class="search">
+                        <input type="text" placeholder="Search">
+                        <button><i class="fa fa-search"></i></button>
+                    </div>
                 </div>
-           </div>
+                <div class="col-md-3">
+                    <div class="user">
+                        <a href="#" class="btn wishlist">
+                            <i class="fa fa-heart"></i>
+                        </a>
+                        <a href="#" class="btn cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="row bg-light">
+            <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <nav class="navbar bg-light">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link"><i class="fa fa-home"></i>Home</a>
+                            </li>
+                              <li class="nav-item">
+                                <a class="nav-link"><i class="fa fa-home"></i>Best Selling</a>
+                            </li>
+                              <li class="nav-item">
+                                <a class="nav-link"><i class="fa fa-home"></i>New Arrivals</a>
+                            </li>
+                              <li class="nav-item">
+                                <a class="nav-link"><i class="fa fa-home"></i>Fashion & Beauty</a>
+                            </li>
+                              <li class="nav-item">
+                                <a class="nav-link"><i class="fa fa-home"></i>Kids & Babies Clothes</a>
+                            </li>
+                              <li class="nav-item">
+                                <a class="nav-link"><i class="fa fa-home"></i>Men & Women Clothes</a>
+                            </li>
+                              <li class="nav-item">
+                                <a class="nav-link"><i class="fa fa-home"></i>Gadgets & Accesories</a>
+                            </li>
+                              <li class="nav-item">
+                                <a class="nav-link"><i class="fa fa-home"></i>Electronics & Accessories</a>
+                            </li>
+                         </ul> 
+                    </nav>
+                </div>
+                <div class="col-md-6">
+                    <div class="container bg-light">
+                        <div class="card mb-4 box-shadow">
+                            <img class="img-fluid" src="images/i2.jpg" alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                            <p class="text">Some text goes here that describes the image</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <img class="img-fluid" src="images/i3.jpg" alt="">
+                    <img class="img-fluid" src="images/i3.jpg" alt="">
+                </div>
+            </div> 
+
+            <div class="row row-content">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="media">
+                            <img src="images/alberto.png" class="d-flex mr-3" height="200px">
+                            <div class="media-body">
+                                <h2 class="text-header">Cusotmer Name</h2>
+                                <h5>Profession</h5>
+                                <i class="fa fa-star" style="color: gold"></i>
+                                <i class="fa fa-star" style="color: gold"></i>
+                                <i class="fa fa-star" style="color: gold"></i>
+                                <p class="mt-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="media">
+                            <img src="images/alberto.png" class="d-flex mr-3" height="200px">
+                            <div class="media-body">
+                                <h2>Cusotmer Name</h2>
+                                <h5>Profession</h5>
+                                <i class="fa fa-star" style="color: gold"></i>
+                                <i class="fa fa-star" style="color: gold"></i>
+                                <i class="fa fa-star" style="color: gold"></i>
+                                <p class="mt-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <footer class="footer">
+        <div class="container">
+            <div class="row row-content1">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Get In Touch</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone">+8998080</i></li>
+                        <li><i class="fa fa-phone">+8998080</i></li>
+                        <li><i class="fa fa-phone">+8998080</i></li>
+                        <li><i class="fa fa-phone">+8998080</i></li>
+                    </ul>
+                </div>
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Get In Touch</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone">+8998080</i></li>
+                        <li><i class="fa fa-phone">+8998080</i></li>
+                        <li><i class="fa fa-phone">+8998080</i></li>
+                        <li><i class="fa fa-phone">+8998080</i></li>
+                    </ul>
+                </div>
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Get In Touch</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone">+8998080</i></li>
+                        <li><i class="fa fa-phone">+8998080</i></li>
+                        <li><i class="fa fa-phone">+8998080</i></li>
+                        <li><i class="fa fa-phone">+8998080</i></li>
+                    </ul>
+                </div>
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Get In Touch</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone">+8998080</i></li>
+                        <li><i class="fa fa-phone">+8998080</i></li>
+                        <li><i class="fa fa-phone">+8998080</i></li>
+                        <li><i class="fa fa-phone">+8998080</i></li>
+                    </ul>
+                </div>
+            </div>
+
+                 <div class="row row-content2">
+                     <div class="col-12 col-md-8">
+                         <p>We Accept: <i class="fa fa-credit-card"></i> <i class="fa fa-credit-card"></i></p>
+                     </div>
+                     <div class="col-12 col-md">
+                         <p>Secured by: <i class="fa fa-credit-card"></i> <i class="fa fa-credit-card"></i> </p>
+                     </div>
+                 </div>
+            <div class="top-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-5 col-md-9">
+                            <span class="ml-1" style="color: white">copyright &copy;HTML Codex All Rights Reserved</span>
+                        </div>
+                        <div class="col-12 col-sm col-md">
+                            <span class="ml-1" style="color: white">Template By HTML Codex</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
         </div>
     </footer>
+</div>
 
-        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+</body>
+
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+      
 </body>
-    
+
 </html>
